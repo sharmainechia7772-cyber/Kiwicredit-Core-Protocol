@@ -13,3 +13,8 @@
 > **Welcome to the logic of the Flow.**
 
 ---
+<p align="center">
+  <img src="cover.jpg" alt="Kiwicredit General Theory Cover - The River breaking the Entropy of the Abyss" width="600">
+  <br>
+  <em>"A river that refuses to freeze in the abyss of hoarding."</em>
+</p>
