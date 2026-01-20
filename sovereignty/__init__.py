@@ -8,18 +8,22 @@ Includes the Constitution, Runtime, and all Defense mechanisms.
 """
 
 # sovereignty/__init__.py
-from .sacred_flaw_defense import NetworkIntegrity
-from .metabolic_anchor import MetabolicHomeostasis
+from .sacred_flaw_defense import NetworkIntegrity, TopologicalIntegrity
+from .metabolic_anchor import MetabolicHomeostasis, ThermodynamicObserver
 from .circuit_breaker import SystemGovernor
 from .semantic_firewall import NarrativeAuditor
 from .grace_engine import GraceProtocol
 from .constitutional_logic import SovereignConstitution
 from .manifesto_runtime import ManifestoRuntime
-# NEW: Power Dynamics
 from .power_dynamics import SymbioticEquilibrium, WaitingGame
+# NEW: Legal Engine
+from .legal_engine import LegalShield, FiscalRetentionEngine
 
 __all__ = [
-    'NetworkIntegrity', 'MetabolicHomeostasis', 'SystemGovernor',
-    'NarrativeAuditor', 'GraceProtocol', 'SovereignConstitution',
-    'ManifestoRuntime', 'SymbioticEquilibrium', 'WaitingGame'
+    'NetworkIntegrity', 'TopologicalIntegrity',
+    'MetabolicHomeostasis', 'ThermodynamicObserver',
+    'SystemGovernor', 'NarrativeAuditor', 'GraceProtocol',
+    'SovereignConstitution', 'ManifestoRuntime',
+    'SymbioticEquilibrium', 'WaitingGame',
+    'LegalShield', 'FiscalRetentionEngine'
 ]
