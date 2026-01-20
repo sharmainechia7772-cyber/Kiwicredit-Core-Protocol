@@ -7,30 +7,27 @@ The mathematical heart of the Phoenix Protocol.
 Here, we enforce the Governing Law: V * T = k.
 """
 
-# 1. Audit & Time Engines (The Basics)
+# 1. Physics & Math
 from .audit_logic import DebtEntropyAudit, ChronocideCalculator
-from .temporal_engine import TemporalSovereignty
-
-# 2. Physics & Navigation (The Laws)
 from .dignity_logic import DignityAreaProtocol
-from .vector_navigation import EndpointDeviationAudit
+from .hope_geometry import FutureHorizonEngine
+from .minting_protocol import GenesisProtocol
+from .decay_engine import KiwicreditToken, GarbageCollector
+from .model_optimizer import EconomicOptimizer
 
-# 3. Actors & Simulation (The Cast & Stage)
+# 2. Time & Concurrency
+from .temporal_engine import TemporalSovereignty
+from .concurrency_manager import EconomyThread, WatchdogTimer
+
+# 3. Actors & Simulation
 from .economic_actors import AgentSam, AgentSME
 from .reality_matrix import ParallelUniverse, EconomicBasin
-
-# 4. Geometry of Hope (The Horizon)
-from .hope_geometry import FutureHorizonEngine
+from .vector_navigation import EndpointDeviationAudit
 
 __all__ = [
-    'DebtEntropyAudit', 
-    'ChronocideCalculator', 
-    'TemporalSovereignty',
-    'DignityAreaProtocol', 
-    'EndpointDeviationAudit', 
-    'AgentSam', 
-    'AgentSME', 
-    'ParallelUniverse', 
-    'EconomicBasin', 
-    'FutureHorizonEngine'
+    'DebtEntropyAudit', 'ChronocideCalculator', 'DignityAreaProtocol',
+    'FutureHorizonEngine', 'GenesisProtocol', 'KiwicreditToken', 
+    'GarbageCollector', 'EconomicOptimizer', 'TemporalSovereignty',
+    'EconomyThread', 'WatchdogTimer', 'AgentSam', 'AgentSME',
+    'ParallelUniverse', 'EconomicBasin', 'EndpointDeviationAudit'
 ]
