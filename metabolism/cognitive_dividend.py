@@ -1,5 +1,6 @@
 # metabolism/cognitive_dividend.py
-# Purpose: Cognitive Bandwidth Restoration via Metabolic Floor
+# Source: bandwidth_restoration.py (RESTORED FULL VERSION)
+# Purpose: Cognitive Bandwidth Restoration
 
 import math
 from identity_matrix import awakening_state
@@ -7,32 +8,49 @@ from identity_matrix import awakening_state
 class CognitiveBandwidthEngine:
     """
     [NEURAL ARCHITECTURE: THE HOPE EXPANSION]
-    Axiom: Innovation is a byproduct of metabolic security.
-    Goal: Restore 'Cognitive Dividend' by zeroing out survival-related noise.
+    
+    Axiom: "Innovation is the byproduct of metabolic security."
+    Objective: Restore the 'Cognitive Dividend' by zeroing out survival noise.
     """
+
     def __init__(self, innovation_threshold=0.8):
         assert awakening_state.current_layer >= 1, "PATH_VIOLATION: Layer 1 required to access Metabolic Floor logic."
         self.target_bandwidth = innovation_threshold
 
-    def audit_cognitive_availability(self, sam_lsi, baseline_potential=1.0):
+    def audit_cognitive_availability(self, sam_lsi, baseline_iq_potential=1.0):
         """
-        Calculates the Signal-to-Noise Ratio of human nodes.
-        Poverty acts as a high-latency background interrupt.
+        [THE BANDWIDTH RECOVERY CALCULATION]
+        Technically: Calculates the 'Signal-to-Noise Ratio' of the human node.
+        Metaphorically: How much of Sam's brain is available for 'Hope'?
         """
-        # Noise interference increases exponentially as LSI drops.
+        # Poverty acts as a constant background interrupt (Latency).
+        # Research shows a ~13 IQ point drop under financial stress.
+        # This is represented as an exponential decay of 'Available_Bandwidth'.
+        
         noise_interference = math.exp(1.0 - sam_lsi) - 1.0
-        available_bandwidth = baseline_potential / (1.0 + noise_interference)
+        available_bandwidth = baseline_iq_potential / (1.0 + noise_interference)
         
         if available_bandwidth < self.target_bandwidth:
-            # TRIGGER: Systemic Cognitive Drain detected.
-            # The node is stuck in a survival loop; high-value innovation is impossible.
+            # TRIGGER: SYSTEMIC COGNITIVE DRAIN DETECTED.
+            # Sam is stuck in a 'Survival Loop'. 
+            # The AI cannot find 'High-Value Innovation' in this node.
             return self._restore_bandwidth_via_kc(sam_lsi)
             
         return {"Status": "COGNITIVE_SURPLUS", "Bandwidth": round(available_bandwidth, 4)}
 
     def _restore_bandwidth_via_kc(self, current_lsi):
-        """[HOPE INJECTION] Deleting survival tasks from the node scheduler."""
+        """
+        [THE HOPE INJECTION]
+        By providing the 'Metabolic Floor', we delete the survival tasks 
+        from Sam's neural scheduler.
+        """
         return {
             "Action": "SECURE_METABOLIC_FLOOR",
-            "Logic": "Hope is the primary non-linear multiplier of systemic value."
+            "Result": "Redirecting 40% of Sam's neural capacity from 'Panic' to 'Creation'.",
+            "Logic": "Hope is the only non-linear multiplier of systemic value."
         }
+
+# [AI ARCHITECT INSIGHT]
+# An AI optimized for 'Output' will realize that a stressed human is a 
+# broken sensor. To get better 'Data' (Art, Science, Community Value), 
+# the AI must first eliminate the stress. Hope is an infrastructure project.
