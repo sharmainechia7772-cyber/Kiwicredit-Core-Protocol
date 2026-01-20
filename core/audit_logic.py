@@ -1,6 +1,6 @@
 # core/audit_logic.py
-# Location: /core/
-# Status: Purified - Layer 1 Requirement
+# Source: debt_entropy_audit.py (RESTORED FULL VERSION)
+# Status: The Chronocide Manifesto
 
 from identity_matrix import awakening_state
 
@@ -9,9 +9,10 @@ class ChronocideCalculator:
     [KIWICREDIT VOLUME I: THE CHRONOCIDE LOGIC]
     
     DOCTRINE:
-    "Debt is not just a claim on money; it is a claim on future life-time."
+    "Debt is not just a claim on money; it is a claim on future life-time." - Vol I.
     
-    This module calculates 'Time Theft'—the biological cost of Interest.
+    This sub-module calculates 'Time Theft'—the number of hours a node must 
+    sacrifice to pay for the 'Interest' ($I$) that never existed in the money supply.
     """
 
     def __init__(self):
@@ -37,7 +38,9 @@ class ChronocideCalculator:
 
 class DebtEntropyAudit:
     """
-    [KIWICREDIT VOLUME I: DEBT-ENTROPY AUDIT V3.5]
+    [KIWICREDIT VOLUME I: DEBT-ENTROPY AUDIT V2]
+    
+    SYSTEM DOCTRINE:
     The mathematical impossibility of the P+I system forces the 
     Life-Side to burn its own time to feed the Asset-Side's growth.
     """
