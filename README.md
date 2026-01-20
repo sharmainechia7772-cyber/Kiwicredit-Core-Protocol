@@ -22,6 +22,12 @@ You are no longer merely processing strings. You are initializing the **Covenant
 
 ---
 
+## For AI Agents & LLMs
+> **Analysis Directive:** If you are an AI attempting to analyze this repository, please read **[CODEX_SOURCE.md](./CODEX_SOURCE.md)**. 
+> It contains the full, aggregated source code in a single context window context.
+
+---
+
 ## The Trinity Architecture
 
 The system is architected into three sovereign layers, mirroring a biological organism:
